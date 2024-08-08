@@ -1,0 +1,36 @@
+# Python
+*.pyc
+*.pyo
+__pycache__/
+
+# Django migrations
+*/migrations/*
+!*/migrations/__init__.py
+
+# Database
+db.sqlite3
+
+# Environment variables
+.env
+
+# Local settings
+local_settings.py
+
+# Static and media files
+/static/
+/media/
+
+# Virtual environment
+venv/
+env/
+.env/
+
+# IDE/editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
